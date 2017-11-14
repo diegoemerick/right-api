@@ -11,5 +11,7 @@ namespace App\Domain\Model;
 
 class ServiceOrder
 {
-
+    const HOST = 'http://localhost';
+    const PORT = ':3003/api/v1';
+    const URL = self::HOST . self::PORT;
 }

@@ -11,5 +11,7 @@ namespace App\Domain\Model;
 
 class Lawyer
 {
-
+    const HOST = 'http://localhost';
+    const PORT = ':3002/api/v1';
+    const URL = self::HOST . self::PORT;
 }

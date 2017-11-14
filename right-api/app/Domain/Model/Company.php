@@ -11,5 +11,7 @@ namespace App\Domain\Model;
 
 class Company
 {
-
+    const HOST = 'http://localhost';
+    const PORT = ':3001/api/v1';
+    const URL = self::HOST . self::PORT;
 }

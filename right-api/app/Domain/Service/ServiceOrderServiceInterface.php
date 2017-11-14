@@ -11,6 +11,19 @@ namespace App\Domain\Service;
 interface ServiceOrderServiceInterface
 {
     /**
+     * @param $orderId
+     * @return mixed
+     */
+    public function getOffersByOrder($orderId);
+
+    /**
+     * @param $orderId
+     * @param $lawyerId
+     * @return mixed
+     */
+    public function createOffer($orderId, $lawyerId);
+
+    /**
      * @param $order
      * @return mixed
      */
